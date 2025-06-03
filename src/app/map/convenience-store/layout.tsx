@@ -11,7 +11,8 @@ export default function ConvenienceStoreLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="flex flex-col items-center justify-center w-full h-full bg-slate-500">
+    <div className="flex flex-col items-center justify-center w-full h-[100vh] bg-slate-500">
+      <nav className="flex w-full text-center bg-slate-400">지도가 보여집니다. 상단 선택 네브바입니다</nav>
       {children}
     </div>
   );
